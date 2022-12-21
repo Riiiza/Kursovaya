@@ -1,0 +1,36 @@
+﻿Построение начато 21.12.2022 17:57:20.
+     1>Проект "G:\На помощь\lkursach1.1\lkursach1.1\lkursach1.1.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lkursach1.1.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         E:\2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lkursach1.1.cpp
+         lkursach1.1.cpp
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\2010\vc\include\stdio.h(234): см. объявление "fopen"
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\2010\vc\include\stdio.h(304): см. объявление "scanf"
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\2010\vc\include\stdio.h(304): см. объявление "scanf"
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(56): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\2010\vc\include\stdio.h(234): см. объявление "fopen"
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(58): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(61): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\2010\vc\include\stdio.h(304): см. объявление "scanf"
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(190): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\2010\vc\include\stdio.h(304): см. объявление "scanf"
+     1>g:\на помощь\lkursach1.1\lkursach1.1\lkursach1.1.cpp(203): warning C4129: : неизвестная escape-последовательность
+       Link:
+         E:\2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\На помощь\lkursach1.1\Debug\lkursach1.1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lkursach1.1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\На помощь\lkursach1.1\Debug\lkursach1.1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\На помощь\lkursach1.1\Debug\lkursach1.1.lib" /MACHINE:X86 Debug\lkursach1.1.obj
+         Debug\stdafx.obj
+     1>lkursach1.1.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         lkursach1.1.vcxproj -> G:\На помощь\lkursach1.1\Debug\lkursach1.1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\На помощь\lkursach1.1\Debug\lkursach1.1.exe;#1" /manifest Debug\lkursach1.1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\lkursach1.1.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lkursach1.1.lastbuildstate".
+     1>Построение проекта "G:\На помощь\lkursach1.1\lkursach1.1\lkursach1.1.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:05.87
